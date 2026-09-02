@@ -1,11 +1,11 @@
 ---
-name: eip-ssot
-description: Specialized orchestrator to synchronize the local ssot/ directory with the codebase and update the Engineering Intelligence Platform (EIP) Web App via the eip-mcp-server. Use when asked to update SSOT or synchronize SSOT.
+name: essot-ssot
+description: Specialized orchestrator to synchronize the local ssot/ directory with the codebase and update the Engineering Intelligence Platform (ESSOT) Web App via the essot-mcp-server. Use when asked to update SSOT or synchronize SSOT.
 ---
 
-# EIP SSOT Sync Orchestrator
+# ESSOT SSOT Sync Orchestrator
 
-This skill orchestrates the synchronization of the Single Source of Truth (SSOT). It ensures that the local `ssot/` directory is updated first, and subsequently updates the EIP Web App using the `eip-mcp-server`.
+This skill orchestrates the synchronization of the Single Source of Truth (SSOT). It ensures that the local `ssot/` directory is updated first, and subsequently updates the ESSOT Web App using the `essot-mcp-server`.
 
 ## Pre-requisites
 
@@ -21,11 +21,11 @@ When asked to update SSOT or synchronize SSOT, strictly follow these steps in or
 - Gather updates from the codebase (e.g., source code changes, architecture changes).
 - Apply these updates to the artifacts and documentation within the local `ssot/` directory.
 - **IMPORTANT**: You must also update the `ssot.yaml` file in the `ssot/` directory accordingly to track any of these updates.
-- **Rule**: The local `ssot/` directory MUST be updated **first** before making any external calls to the EIP Web App.
+- **Rule**: The local `ssot/` directory MUST be updated **first** before making any external calls to the ESSOT Web App.
 
-### 2. Synchronize with the EIP Web App
-- Once the local `ssot/` directory is updated and accurate, call the `eip-mcp-server`.
-- Use the `synchronize_ssot` tool within the `eip-mcp-server` to push the content from the local `ssot/` directory to the EIP Web App.
+### 2. Synchronize with the ESSOT Web App
+- Once the local `ssot/` directory is updated and accurate, call the `essot-mcp-server`.
+- Use the `synchronize_ssot` tool within the `essot-mcp-server` to push the content from the local `ssot/` directory to the ESSOT Web App.
 
 ### 3. Generate a Report
 - At the end of the task, always generate a structured report detailing what was done.
