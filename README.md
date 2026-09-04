@@ -1,6 +1,6 @@
 # ESSOT Sync Orchestrator Skill
 
-This skill is an orchestrator designed to maintain parity between your local codebase's Single Source of Truth (SSOT) and the Engineering Intelligence Platform (ESSOT).
+This skill is an orchestrator designed to maintain parity between your local codebase's Single Source of Truth (SSOT) and the Engineering SSOT Platform (ESSOT).
 
 ## Overview
 

@@ -1,9 +1,9 @@
 ---
-name: essot-ssot
-description: Specialized orchestrator to synchronize the local ssot/ directory with the codebase and update the Engineering Intelligence Platform (ESSOT) Web App via the essot-mcp-server. Use when asked to update SSOT or synchronize SSOT.
+name: essot
+description: Specialized orchestrator to synchronize the local ssot/ directory with the codebase and update the Engineering SSOT Platform (ESSOT) Web App via the essot-mcp-server. Use when asked to update SSOT or synchronize SSOT.
 ---
 
-# ESSOT SSOT Sync Orchestrator
+# ESSOT Sync Orchestrator
 
 This skill orchestrates the synchronization of the Single Source of Truth (SSOT). It ensures that the local `ssot/` directory is updated first, and subsequently updates the ESSOT Web App using the `essot-mcp-server`.
 
